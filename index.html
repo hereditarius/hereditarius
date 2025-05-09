@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hereditarius – Pesquisa</title>
   <link rel="stylesheet" href="css/buscador.css">
-  <style>
-    
-  </style>
 </head>
 <body>
   <div class="logo-container">
@@ -15,10 +12,12 @@
   </div>
 
   <div class="search-box">
-    <input type="text" class="search-input" placeholder="Pesquisar seus antepassados...">
+    <input id="campo-pesquisa" type="text" class="search-input" placeholder="Pesquisar seus antepassados...">
     <div class="button-group">
-      <button>Pesquisa Hereditária</button>
+      <button onclick="buscar()">Pesquisa Hereditária</button>
     </div>
   </div>
+
+  <script src="js/search.js"></script>
 </body>
 </html>
